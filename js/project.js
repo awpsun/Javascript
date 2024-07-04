@@ -1,0 +1,11 @@
+console.log("Hello World!");
+let abc="Hello";
+let def=12;
+let sigma=true;
+console.log(typeof abc);
+console.log(typeof def);
+console.log(typeof sigma);
+console.log(typeof true);
+console.log(typeof "vettel")
+console.log(typeof 68);
+console.log(typeof true);

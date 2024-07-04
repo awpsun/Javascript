@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+    height: 200vh;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+h1 {
+    background-color: gainsboro;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    color: rgb(43, 226, 177);
+    padding: 2%;
+    text-shadow: 2.5px 2px 0px   black;
+}
+p{
+    padding: 4%;
+    font-size: 32px;
+    color: rgb(240, 240, 240);
+    background-color: rgb(225, 117, 45);
+
+}
+.p2{
+    font-size: 28px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 4%;
+    
+}
+.p3{
+    font-size: 24px;
+    color: black;
+    background-color: rgb(10, 155, 92);
+    padding: 5%;
+    
+}
+/* div{
+    height: 5em;   
+    width: 5em;
+    border-radius: 60%;
+    font-size: 12px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+footer{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
