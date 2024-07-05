@@ -60,4 +60,4 @@ switch (playerOne){
             console.log("playerOne wins")
         }
         
-}       break;
+}       
