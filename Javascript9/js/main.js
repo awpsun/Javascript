@@ -22,3 +22,5 @@
  let testScore =79;
  let myGrade = testScore>89 ? "A+" : testScore>79 ? "B+" : testScore>69 ? "C+" : testScore>59 ? 'JUST PASSED 2nd Division' : "Barely PASSED";
 console.log(myGrade);
+
+

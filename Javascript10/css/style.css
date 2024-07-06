@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkblue;
+}
+h1{
+    background-color: gray;
+    font-size: 64px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+p {
+    font-size: 32px;
+    background-color: azure;
+    padding: 5%;
+}
