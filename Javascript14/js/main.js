@@ -38,7 +38,7 @@ console.log(`global ${z}`);
 function meraFunction() { //use `(csgo wala)
     var x=69; //var is function scoped
     const z=90; //blocked scoped
-    
+
 
     {
         var x=12;
@@ -48,9 +48,10 @@ function meraFunction() { //use `(csgo wala)
         console.log(`block ${z}`);
     }//block always pulls from the parents
      //blocks generally upar jaake dhundta hai
-     console.log(`function ${x}`);
+     console.log(`function ${x}`); //x=12 se call kr rha haix=12 ayega
      console.log(`function ${y}`);
-     console.log(`function ${z}`);
+     console.log(`function ${z}`); //function i.e z=90 ayega
+     //kyuki function just upar code block se call kr rha hai as it is a var jo function ko preference deta hai
 
 }
 meraFunction();
