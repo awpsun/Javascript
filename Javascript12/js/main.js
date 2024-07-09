@@ -13,6 +13,7 @@ do { //do runs the code atleast 1 times where as while only runs if it can run m
     console.log(hisNumber);
 }   while (hisNumber <100)
 
+
 //for loop
 for (let i = 0; i<=10; i++){
     console.log(i);
@@ -32,4 +33,4 @@ while (true){
     if (myLetter ==="l") break; 
     counter++;
 }
-console.log(counter);
+console.log(counter);   

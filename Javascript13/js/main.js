@@ -21,11 +21,15 @@ console.log(sum(6,12));  */
 }
 console.log(getuseremail("terabhai@gmail.com"));
 
+
+
 //Anonomous function // works the same
 const getuseremail = function (email){
     return email.slice(0, email.indexOf("@"));
 }
 console.log(getuseremail("terabhai@gmail.com"));
+
+
 
 //arrow functions same thingg but function is written as =>
 const getuseremail = (email)=> {
@@ -33,7 +37,10 @@ const getuseremail = (email)=> {
 }
 console.log(getuseremail("terabhai@gmail.com")); 
 
+
+
 //To proper case names
+
 const Myproper = (myName) =>{
     return myName.charAt(0).toUpperCase() + myName.slice(1).toLowerCase();
 };
