@@ -4,8 +4,7 @@
 const myObj = {name: "Vettel"};
 const anotherObj={
     alive:true,
-    answer:69,
-    hobbies:["eat","sleep","code","repeat"],
+    answer:69,    hobbies:["eat","sleep","code","repeat"],
     drinks: {
         morning:"Coffee",
         afternoon:"Milk",
