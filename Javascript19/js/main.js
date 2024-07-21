@@ -15,7 +15,7 @@ console.log(myObj);
 console.log(myObj.name);
 myObj.hello;
 console.log(typeof myObj);
-
+LargestContentfulPaint
 const sendJSON = JSON.stringify(myObj); //json don't convert function
 console.log(sendJSON);
 console.log(typeof sendJSON);
